@@ -1,10 +1,41 @@
 
-
+body {
+    min-height: 100vh;
+       
+    margin: 0 auto;
+}
 
 html {
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
+
+#navbar{
+    background-color: white;    
+}
+
+div#slogan{
+padding-left: 350px;
+padding-right: 350px;
+padding-top: 100px;
+padding-bottom: 50px;
+text-align: center;
+background-color: white;
+margin-top: 0%;
+font-size: 2em;
+}
+
+div#home-buttoms { 
+    padding-bottom: 50px ;
+    text-align: center;   
+    background-color: white;    
+    font-size: 1em;
+}
+
 
 p {
     margin-right: 2em;
@@ -22,9 +53,56 @@ button {
     font-size: 0.8em;
     width: 8em;
 }
+#buttom-contact{
+    width: 11em;
+    padding-top: 0;    
+}
+
+#buttom-contact:hover{
+    background-color: black;
+    color: white;
+}
+#buttom-sum{
+    border: 2px solid #6b53f0;    
+    
+}
+#buttom-sum:hover{
+    background-color:#6b53f0;
+    color: white;
+}
+#buttom-sum:hover p{
+    background-color:#6b53f0;
+    color: white;
+}
+
+#buttom-sum p{
+    color: rgb(40,116,252);
+    padding: 0%;
+    margin: 0%;
+    text-decoration-color: black;    
+}
+
 
 div#navbar-left img {
     width: 8em;
+}
+
+#navbar.right{
+    display: flex; 
+    align-items: center"
+}
+
+div#contador{
+    background-color: #201b24;
+    padding: 100px;
+    text-align: left;
+    margin-top: 0%;
+    color: white;
+
+}
+
+div#sapace{
+    margin: 1000px;
 }
 
 @media (width >= 2500px) {
